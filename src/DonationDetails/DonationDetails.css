@@ -21,7 +21,7 @@
     position: relative;
 }
 
-.donateBtn {
+.donate {
     position: absolute;
     bottom: 0;
     padding: 37px;
@@ -30,7 +30,7 @@
     background: rgba(11, 11, 11, 0.50);
 }
 
-.donateBtn button {
+.donate button {
     display: inline-flex;
     padding: 16px 26px;
     justify-content: center;
@@ -41,7 +41,13 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+    transition: 0.6s;
 
+}
+
+.donate button:hover {
+    box-shadow: inset 200px 0 rgb(4, 205, 41);
 }
 
 .aboutThisDonation {
