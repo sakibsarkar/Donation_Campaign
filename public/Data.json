@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "section": "Health",
+    "image": "https://i.ibb.co/X4993kD/Health.png",
+    "tittle": "Clean water for children",
+    "backgroundColor": "rgba(0, 82, 255, 0.15)",
+    "tittleColor": "#0052FF",
+    "sectionColor": "rgba(0, 82, 255, 0.20)"
+  },
+  {
+    "id": 2,
+    "section": "Education",
+    "image": "https://i.ibb.co/K7YffGZ/Education.png",
+    "tittle": "Good education",
+    "backgroundColor": "rgba(255, 68, 74, 0.15)",
+    "tittleColor": "#FF444A",
+    "sectionColor": "rgba(255, 68, 74, 0.20)"
+  },
+  {
+    "id": 3,
+    "section": "Clothing",
+    "image": "https://i.ibb.co/C8J24wT/Clothing.png",
+    "tittle": "Used Clothing Drive",
+    "backgroundColor": "rgba(121, 194, 63, 0.15)",
+    "tittleColor": "#79C23F",
+    "sectionColor": "rgba(121, 194, 63, 0.20)"
+  },
+  {
+    "id": 4,
+    "section": "Food",
+    "image": "https://i.ibb.co/m0Zyqcd/Food.png",
+    "tittle": "Better Food for Everyone",
+    "backgroundColor": "rgba(248, 113, 71, 0.15)",
+    "tittleColor": "#F87147",
+    "sectionColor": "rgba(248, 113, 71, 0.20)"
+  },
+  {
+    "id": 5,
+    "section": "Food",
+    "image": "https://i.ibb.co/m0Zyqcd/Food.png",
+    "tittle": "Better Food for Everyone",
+    "backgroundColor": "rgba(248, 113, 71, 0.15)",
+    "tittleColor": "#F87147",
+    "sectionColor": "rgba(248, 113, 71, 0.20)"
+  },
+  {
+    "id": 6,
+    "section": "Clothing",
+    "image": "https://i.ibb.co/C8J24wT/Clothing.png",
+    "tittle": "Used Clothing Drive",
+    "backgroundColor": "rgba(121, 194, 63, 0.15)",
+    "tittleColor": "#79C23F",
+    "sectionColor": "rgba(121, 194, 63, 0.20)"
+  },
+  {
+    "id": 7,
+    "section": "Education",
+    "image": "https://i.ibb.co/K7YffGZ/Education.png",
+    "tittle": "Good education",
+    "backgroundColor": "rgba(255, 68, 74, 0.15)",
+    "tittleColor": "#FF444A",
+    "sectionColor": "rgba(255, 68, 74, 0.20)"
+  },
+  {
+    "id": 8,
+    "section": "Health",
+    "image": "https://i.ibb.co/X4993kD/Health.png",
+    "tittle": "Clean water for children",
+    "backgroundColor": "rgba(0, 82, 255, 0.15)",
+    "tittleColor": "#0052FF",
+    "sectionColor": "rgba(0, 82, 255, 0.20)"
+  },
+  {
+    "id": 9,
+    "section": "Health",
+    "image": "https://i.ibb.co/X4993kD/Health.png",
+    "tittle": "Clean water for children",
+    "backgroundColor": "rgba(0, 82, 255, 0.15)",
+    "tittleColor": "#0052FF",
+    "sectionColor": "rgba(0, 82, 255, 0.20)"
+  },
+  {
+    "id": 10,
+    "section": "Education",
+    "image": "https://i.ibb.co/K7YffGZ/Education.png",
+    "tittle": "Good education",
+    "backgroundColor": "rgba(255, 68, 74, 0.15)",
+    "tittleColor": "#FF444A",
+    "sectionColor": "rgba(255, 68, 74, 0.20)"
+  },
+  {
+    "id": 11,
+    "section": "Clothing",
+    "image": "https://i.ibb.co/C8J24wT/Clothing.png",
+    "tittle": "Used Clothing Drive",
+    "backgroundColor": "rgba(121, 194, 63, 0.15)",
+    "tittleColor": "#79C23F",
+    "sectionColor": "rgba(121, 194, 63, 0.20)"
+  },
+  {
+    "id": 12,
+    "section": "Food",
+    "image": "https://i.ibb.co/m0Zyqcd/Food.png",
+    "tittle": "Better Food for Everyone",
+    "backgroundColor": "rgba(248, 113, 71, 0.15)",
+    "tittleColor": "#F87147",
+    "sectionColor": "rgba(248, 113, 71, 0.20)"
+  }
+]

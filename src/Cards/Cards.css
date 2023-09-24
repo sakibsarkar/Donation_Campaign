@@ -1,0 +1,11 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 312px);
+    gap: 24px;
+    width: 1320px;
+    margin: auto;
+}

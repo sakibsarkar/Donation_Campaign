@@ -1,0 +1,33 @@
+* {
+    font-family: 'Inter', sans-serif;
+
+}
+
+.card {
+    border-radius: 8px;
+    width: 312px;
+    height: 267px;
+    padding: 0 0 16px 0;
+}
+
+.imgContainer img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 16px 0 0 16px;
+}
+
+.section {
+    padding: 4px 10px;
+    width: fit-content;
+    border-radius: 4px;
+}
+
+.section p {
+    font-size: 14px;
+    font-weight: 500;
+}
