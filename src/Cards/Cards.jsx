@@ -2,13 +2,18 @@ import "./Cards.css";
 import Card from "../Card/Card";
 import { useEffect, useState } from "react";
 
-const Cards = () => {
+const Cards = ({ searchValue }) => {
     const [cardInfo, setCardInfo] = useState([])
+
     useEffect(() => {
         fetch("Data.json")
             .then(res => res.json())
-            .then(data => setCardInfo(data))
-    }, [])
+            .then(data => {
+                const filter = data.filter((data) => data.section.toLowerCase().includes(searchValue.toLowerCase()))
+                setCardInfo(filter)
+            })
+    }, [searchValue])
+
     return (
         <div className="cardContainer">
             {
