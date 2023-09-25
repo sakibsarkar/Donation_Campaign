@@ -1,7 +1,12 @@
 function addOnLS(value) {
     let oldDonations = JSON.parse(localStorage.getItem("donation"))
-    let newDonation = [...oldDonations, value]
-    localStorage.setItem("donation", JSON.stringify(newDonation))
+    let newDonation = []
+    if (oldDonations.length < 12) {
+        newDonation = [...oldDonations, value]
+        localStorage.setItem("donation", JSON.stringify(newDonation))
+        return
+    }
+    // localStorage.setItem("donation", JSON.stringify(newDonation))
 
 
 }

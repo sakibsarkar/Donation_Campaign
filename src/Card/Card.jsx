@@ -17,7 +17,7 @@ const Card = ({ card }) => {
                     <div className="section" style={{ color: `${text_color}`, background: `${ category_bg}` }}>
                         <p>{Category}</p>
                     </div>
-                    <div className="sectiontittle">
+                    <div className="sectionTittle">
                         <p style={{ color: `${text_color}` }}>{Title}</p>
                     </div>
                 </div>

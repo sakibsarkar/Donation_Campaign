@@ -31,3 +31,7 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+.sectionTittle p {
+    font-weight: 600;
+}
