@@ -37,6 +37,21 @@
         margin: auto;
     }
 
+    .theBigImgBox {
+        width: 90vw;
+        height: 45vh;
+        background-position: center;
+    }
+
+    .aboutThisDonation {
+        width: auto;
+    }
+
+    .donate {
+        width: 100%;
+        padding: 20px;
+    }
+
     .errorCon img {
         width: 100%;
     }
@@ -79,6 +94,22 @@
         flex-direction: column;
         padding: 0 0 20px 0;
         margin: auto;
+    }
+
+
+    .theBigImgBox {
+        width: 90vw;
+        height: 45vh;
+        background-position: center;
+    }
+
+    .aboutThisDonation {
+        width: auto;
+    }
+
+    .donate {
+        width: 100%;
+        padding: 20px;
     }
 
     .errorCon img {
@@ -124,12 +155,42 @@
         margin: auto;
     }
 
+    .theBigImgBox {
+        width: 90vw;
+        height: 60vh;
+        background-position: center;
+    }
+
+    .aboutThisDonation {
+        width: auto;
+    }
+
+    .donate {
+        width: 100%;
+        padding: 20px;
+    }
+
     .errorCon img {
         width: 70%;
     }
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1440px) {
+    .theBigImgBox {
+        width: 90vw;
+        height: 70vh;
+        background-position: center;
+    }
+
+    .aboutThisDonation {
+        width: auto;
+    }
+
+    .donate {
+        width: 100%;
+        padding: 20px;
+    }
+
     .myDonations {
         grid-template-columns: repeat(3, 322px);
     }

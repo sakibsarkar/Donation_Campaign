@@ -12,6 +12,11 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 20px;
+}
+
+.noDonation img {
+    width: 100%;
 }
 
 .myDonations {
