@@ -30,12 +30,12 @@ const routes = createBrowserRouter([
         path: '/donationDetails/:id',
         element: <DonationDetails></DonationDetails>,
         loader: () => fetch("Data.json"),
-        // errorElement: <ErrorPage></ErrorPage>
+        errorElement: <ErrorPage></ErrorPage>
       },
-      // {
-      //   path: "*",
-      //   element: <ErrorPage></ErrorPage>
-      // }
+      {
+        path: "*",
+        element: <ErrorPage></ErrorPage>
+      }
     ]
   }
 ])
