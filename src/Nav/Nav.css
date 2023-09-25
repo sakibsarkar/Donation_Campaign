@@ -10,7 +10,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    padding: 25px 0;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+
 }
 
 .navBar {
@@ -19,12 +23,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    top: 50px;
+
 
 }
 
-.navLinks {
+.navLinks nav ul {
     display: flex;
     justify-content: center;
     align-items: center;

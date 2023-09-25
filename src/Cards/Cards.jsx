@@ -9,7 +9,7 @@ const Cards = ({ searchValue }) => {
         fetch("Data.json")
             .then(res => res.json())
             .then(data => {
-                const filter = data.filter((data) => data.section.toLowerCase().includes(searchValue.toLowerCase()))
+                const filter = data.filter((data) => data.Category.toLowerCase().includes(searchValue.toLowerCase()))
                 setCardInfo(filter)
             })
     }, [searchValue])

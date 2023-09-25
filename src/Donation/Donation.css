@@ -1,0 +1,24 @@
+.wrappper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.noDonation p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.myDonations {
+    display: grid;
+    grid-template-columns: repeat(2, 648px);
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}

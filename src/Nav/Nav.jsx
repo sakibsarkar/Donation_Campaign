@@ -9,9 +9,16 @@ const Nav = () => {
                 <img src="https://i.ibb.co/JQrqK7S/Logo.png" alt="" />
             </div>
             <div className="navLinks">
-                <NavLink className={"links"} to={"/"}>Home</NavLink>
-                <NavLink className={"links"} to={"/Donation"}>Donation</NavLink>
-                <NavLink className={"links"} to={"/Statistics"}>Statistics</NavLink>
+                <nav>
+                    <ul>
+                        <li><NavLink className={"links"} to={"/"}>Home</NavLink></li>
+                        <li><NavLink className={"links"} to={"/Donation"}>Donation</NavLink></li>
+                        <li><NavLink className={"links"} to={"/Statistics"}>Statistics</NavLink></li>
+                    </ul>
+                </nav>
+                
+                
+                
             </div>
         </div>
         </div>
