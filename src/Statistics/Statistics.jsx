@@ -12,7 +12,7 @@ const Statistics = () => {
 
     const data = [
         ["Task", "Hours per Day"],
-        ["Your Donation", donationData],
+        ["Your Donation", donationData || 0],
         ["Total Donation", 100 - donationData],
 
     ];

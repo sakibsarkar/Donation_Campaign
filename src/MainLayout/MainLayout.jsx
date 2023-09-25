@@ -1,3 +1,4 @@
+import "./CSSforResponsiveNess.css";
 import Nav from "../Nav/Nav";
 import { Outlet } from "react-router-dom";
 

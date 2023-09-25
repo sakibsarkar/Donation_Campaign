@@ -7,6 +7,7 @@ const DonationDetails = () => {
     const loaderData = useLoaderData()
     const { id: cardId } = useParams()
     const card = loaderData.find((info) => info.id == cardId)
+    console.clear()
     const { id, Category, Picture, Title, card_bg, text_color, category_bg, description } = card
     const DonateMoney = () => {
         toast.success('Donation Successfull.Thanks')
