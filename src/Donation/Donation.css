@@ -1,5 +1,5 @@
 .wrappper {
-    height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,5 +20,19 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
+    padding: 20px 0;
 
+}
+
+.seeAll button {
+    padding: 14px 28px;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background: #009444;
+    cursor: pointer;
+    margin: auto;
 }
