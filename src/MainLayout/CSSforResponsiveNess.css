@@ -30,11 +30,28 @@
     }
 
     .myDonationCardCon {
-        width: fit-content;
+        width: 90%;
         height: fit-content;
         flex-direction: column;
         padding: 0 0 20px 0;
         margin: auto;
+    }
+
+    .rightSide {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .rightSide img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .leftTop {
+        padding: 0px 12px;
+        min-width: 264px;
     }
 
     .theBigImgBox {
@@ -96,6 +113,23 @@
         margin: auto;
     }
 
+    .rightSide {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .rightSide img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .leftTop {
+        padding: 0px 12px;
+        min-width: 264px;
+    }
+
 
     .theBigImgBox {
         width: 90vw;
@@ -145,6 +179,23 @@
 
     .myDonations {
         grid-template-columns: repeat(2, 322px);
+    }
+
+    .rightSide {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .rightSide img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .leftTop {
+        padding: 0px 12px;
+        min-width: 264px;
     }
 
     .myDonationCardCon {
@@ -201,6 +252,24 @@
         flex-direction: column;
         padding: 0 0 20px 0;
         margin: auto;
+    }
+
+
+    .rightSide {
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .rightSide img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .leftTop {
+        padding: 0px 12px;
+        min-width: 264px;
     }
 }
 
