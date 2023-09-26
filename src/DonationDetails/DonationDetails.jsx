@@ -6,7 +6,6 @@ import { addOnLS } from "../addItemsOnLS/addItemsOnLS";
 const DonationDetails = () => {
     const loaderData = useLoaderData()
     const { id: cardId } = useParams()
-    console.log(loaderData)
     const card = loaderData.find((info) => info.id == cardId)
     const { id, Category, Picture, Title, card_bg, text_color, category_bg, description } = card
     const DonateMoney = () => {
