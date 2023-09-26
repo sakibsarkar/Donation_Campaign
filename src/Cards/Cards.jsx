@@ -6,7 +6,7 @@ const Cards = ({ searchValue }) => {
     const [cardInfo, setCardInfo] = useState([])
 
     useEffect(() => {
-        fetch("Data.json")
+        fetch("https://sakibsarkar.github.io/Donation_api/donation_api.json")
             .then(res => res.json())
             .then(data => {
                 const filter = data.filter((data) => data.Category.toLowerCase().includes(searchValue.toLowerCase()))

@@ -29,7 +29,7 @@ const routes = createBrowserRouter([
       {
         path: '/donationDetails/:id',
         element: <DonationDetails></DonationDetails>,
-        loader: () => fetch("Data.json"),
+        loader: () => fetch("https://sakibsarkar.github.io/Donation_api/donation_api.json"),
         errorElement: <ErrorPage></ErrorPage>
       },
       {
