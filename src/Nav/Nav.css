@@ -39,15 +39,38 @@
     color: #0B0B0B;
     font-size: 18px;
     font-weight: 400;
+    position: relative;
 }
 
-.links:hover {
-    /* color: #FF444A; */
-    text-decoration-line: underline;
+
+
+.links:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #000000;
+    bottom: -4px;
+    left: 0;
+}
+
+.links:hover:after {
+    width: 100%;
 }
 
 .active {
     color: #FF444A;
     font-weight: 700;
-    text-decoration-line: underline;
+    ;
+    position: relative;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #FF444A;
+    bottom: -4px;
+    left: 0;
 }
