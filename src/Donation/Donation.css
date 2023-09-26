@@ -29,6 +29,10 @@
 
 }
 
+.seeAll {
+    margin: 20px 0 0 0;
+}
+
 .seeAll button {
     padding: 14px 28px;
     color: #FFF;

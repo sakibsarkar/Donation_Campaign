@@ -19,11 +19,11 @@ const routes = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: "/Donation",
+        path: "/donation",
         element: <Donation></Donation>
       },
       {
-        path: "/Statistics",
+        path: "/statistics",
         element: <Statistics></Statistics>
       },
       {

@@ -28,7 +28,7 @@ const Statistics = () => {
     return (
         <div>
 
-            <Chart
+            <Chart className="chart"
                 chartType="PieChart"
                 data={data}
                 options={options}

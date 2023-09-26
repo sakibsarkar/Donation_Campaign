@@ -47,9 +47,9 @@
 
 }
 
-.donate button:hover {
+/* .donate button:hover {
     box-shadow: inset 200px 0 rgb(4, 205, 41);
-}
+} */
 
 .aboutThisDonation {
     display: flex;

@@ -1,7 +1,7 @@
 import "./MyDonation.css";
 
 const MyDonations = ({ donation }) => {
-    const { id, Category, Picture, Title, card_bg, text_color, category_bg, price } = donation
+    const { id, Category, Picture, Title, card_bg, text_color, category_bg, price, rectangle_img } = donation
 
     return (
         <div className="myDonationCardCon" style={{ background: `${card_bg}` }}>
@@ -9,7 +9,7 @@ const MyDonations = ({ donation }) => {
             {
                 <>
                     <div className="rightSide">
-                        <img src={Picture} alt="" />
+                        <img src={rectangle_img} alt="" />
                     </div>
                     <div className="leftSide" >
                         <div className="leftTop">
