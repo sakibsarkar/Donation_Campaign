@@ -16,7 +16,8 @@ const DonationDetails = () => {
     return (
         <div className="donation">
 
-            <div className="theBigImgBox" style={{ backgroundImage: `url(${Picture})`, backgroundSize: "cover" }}>
+            <div className="theBigImgBox">
+                <img src={Picture} alt="" />
                 <div className="donate">
                     <button style={{ background: `${text_color}` }} onClick={DonateMoney} >Donate $290</button>
                 </div>
